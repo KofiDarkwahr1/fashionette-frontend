@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+<!--    font-awsome-->
+    <script src="https://kit.fontawesome.com/c39acc4a6c.js" crossorigin="anonymous"></script>
+    <title>Fashionette: Wear African Effortlessly</title>
+</head>
+<body id="wear-page">
+<!-- main area -->
+<main class="hero">
+    <!-- Header begins here -->
+
+    <header class="container">
+
+        <!-- brand/logo -->
+        <p class="brand">
+            <img class="logo" src="img/logo.jpg" alt="fashionette logo">
+            <span class="white-colour">Fashion</span>
+            <span class="light-grey">ette</span>
+        </p>
+
+        <!-- navigation -->
+        <ul class="nav-list flex">
+            <li class="mobile-menu-close" onclick="closeMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </li>
+            <li class="nav-list-item">
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a href="shop.html">
+                    Shop
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">
+                    Account
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">
+                    Cart
+                </a>
+            </li>
+
+        </ul>
+
+        <!-- hamburger menu -->
+        <div class="hamburger-menu" onclick="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Header ends here -->
+
+    <!-- hero text begins here -->
+    <article class="hero-text-container container flex">
+        <h1 class="hero-head-text">
+            <span class="small-hero-header-text">Wear African</span>
+            <span class="big-hero-header-text">Effortlessly</span>
+        </h1>
+
+        <p class="hero-paragraph">
+            loremVelit sit velit adipisicing aliqua occaecat non duis occaecat id est irure commodo consectetur incididunt. Eiusmod excepteur officia pariatur dolore officia anim qui ad elit et.
+        </p>
+
+        <p class="offer-text flex">
+            <a href="#" class="cta cta-primary">Shop Now</a>
+            <span>
+                    10% off for first time buyers
+                </span>
+        </p>
+    </article>
+
+    <!-- Hero text ends here -->
+</main>
+<!-- main area ends here -->
+
+<!-- discount banner -->
+<section class="discount-banner">
+    <div class="container">
+        <p>10% Off For Your First Purchase</p>
+    </div>
+</section>
+<!-- discount banner ends here -->
+
+<!--breadcrumps-->
+<div class="breadcrumps">
+    <div class="container">
+        <p>Home > Shop</p>
+    </div>
+</div>
+<!--breadcrumps ends here-->
+
+<!--shopping bag-->
+<section class="checkout">
+    <div class="container">
+        <h1>Checkout</h1>
+
+        <section class="checkout-order-summary flex">
+
+            <div class="customer-info">
+                <form action="" class="form-group">
+
+                    <section class="customer-address">
+                        <strong class="sub-head"><i class="far fa-check-circle"></i>Customer Address</strong>
+
+                        <input type="text" name="first_name" placeholder="First Name">
+                        <input type="text" name="last_name" placeholder="Last Name">
+                        <input type="tel" name="telephone" placeholder="Phone Number">
+                        <select name="state-region">
+                            <option value="Greater Accra">Central</option>
+                            <option value="Greater Accra">Eastern</option>
+                            <option value="Greater Accra">Greater Accra</option>
+                            <option value="Greater Accra">Bono</option>
+                            <option value="Greater Accra">Northern</option>
+                        </select>
+                        <textarea name="address" placeholder="Address: Street Name/ Building/ Apartment No./ Floor"></textarea>
+
+                        <select name="city">
+                            <option value="">Choose A City</option>
+                            <option value="">Kasoa</option>
+                            <option value="">Odorkor</option>
+                            <option value="">Awoshie</option>
+                        </select>
+                    </section>
+
+                    <section class="delivery-method">
+                        <strong class="sub-head"><i class="far fa-check-circle"></i>Delivery Method</strong>
+
+                        <p>
+                            What is your prefered mode of delivery?
+                        </p>
+
+                        <div class="delivery">
+                            <div class="radio flex">
+                                <input type="radio" name="mode_of_delivery" value="1">
+                                <label><strong>Home or Office Delivery</strong></label>
+                            </div>
+
+                            <p>Delivered between <span class="date">Thursday 2nd April, 2020 </span> and <span class="date"> Friday 3rd April, 2020</span></p>
+                        </div>
+
+                        <div class="delivery">
+                            <div class="radio flex">
+                                <input type="radio" name="mode_of_delivery" value="1">
+                                <label><strong>Any of Our Pickup Stations</strong></label>
+                            </div>
+
+                            <p>Delivered between <span class="date">Thursday 2nd April, 2020 </span> and <span class="date"> Friday 3rd April, 2020</span></p>
+                            <p>NB This option is recommended for those outside Accra because of reduced shipping fees</p>
+
+                            <select name="" id="" class="pickup-station">
+                                <option value="Kasoa">Kasoa</option>
+                                <option value="Kasoa">Tema Station</option>
+                                <option value="Kasoa">Kaneshie</option>
+                                <option value="Kasoa">Circle</option>
+                            </select>
+                        </div>
+                    </section>
+
+                    <strong class="sub-head"><i class="far fa-check-circle"></i>Payment Options</strong>
+                    <p>Please ensure you have enouhg funds on your mobile money wallet to make payment instantly to enable you receive your order.</p>
+
+                    <div class="momo">
+                        <div class="momo-input-fields">
+
+                            <strong class="sub-head">Mobile Money</strong>
+
+                            <div class="radio flex">
+                                <input type="radio" name="payment_method" value="1">
+                                <label><img src="img/mtn.jpg" alt="mobile payment company images"></label>
+                            </div>
+
+                            <div class="radio flex">
+                                <input type="radio" name="payment_method" value="1">
+                                <label><img src="img/voda.jpg" alt="mobile payment company images"></label>
+                            </div>
+
+                            <div class="radio flex">
+                                <input type="radio" name="payment_method" value="1">
+                                <label><img src="img/airteltigo.jpg" alt="mobile payment company images"></label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                    <div class="cash-on-delivery">
+
+                        <strong class="sub-head">Cash On Delivery</strong>
+
+                        <div class="radio flex">
+                            <input type="radio" name="payment_method">
+                            <img src="img/cash.jpg" alt="pay cash on delivery icon">
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="cta cta-primary">Confirm Order</a>
+                </form>
+
+
+
+            </div>
+
+            <div class="order-summary">
+                <div class="shopping-items">
+                    <strong>Order Summary</strong>
+                    <div class="shopping-item flex">
+                        <figure class="wear">
+                            <img src="img/designs/1.jpg" alt="">
+                            <div class="other-links">
+                                <a href="" class="edit"><i class="far fa-edit"></i></a>
+                                <a href="" class="edit"><i class="far fa-trash-alt"></i></a>
+                            </div>
+                        </figure>
+
+                        <div class="description">
+                            <h3>Boubou-Kaba Dress</h3>
+
+                            <div class="measurement">
+                                <ul>
+                                    <li>Fabric type: <span>Wooden</span></li>
+                                    <li>Quantity: <span>Wooden</span></li>
+                                    <li>Size: <span>Wooden</span></li>
+                                    <li>Price: <span>Wooden</span></li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shopping-item flex">
+                        <figure class="wear">
+                            <img src="img/designs/2.jpg" alt="">
+                            <div class="other-links">
+                                <a href="" class="edit"><i class="far fa-edit"></i></a>
+                                <a href="" class="edit"><i class="far fa-trash-alt"></i></a>
+                            </div>
+                        </figure>
+
+                        <div class="description">
+                            <h3>Boubou-Kaba Dress</h3>
+
+                            <div class="measurement">
+                                <ul>
+                                    <li>Fabric type: <span>Wooden</span></li>
+                                    <li>Quantity: <span>Wooden</span></li>
+                                    <li>Size: <span>Wooden</span></li>
+                                    <li>Price: <span>Wooden</span></li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="subtotal">
+                    <strong>Sub Total</strong>
+                    <p>Boubou-Kaba Dress x 1 <span>GHC 500.00</span></p>
+                    <p>Boubou-Kaba Dress x 1 <span>GHC 500.00</span></p>
+                    <p>Shipping<span>GHC 10.00</span></p>
+                    <p class="total">Total <span>GHC 1100.00</span></p>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+</section>
+<!--shopping bags ends here-->
+
+
+<!--    footer  -->
+<footer class="footer">
+    <div class="container">
+        <div class="about-company">
+            <strong>About Us</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aspernatur, quas. At dolores exercitationem maxime nemo quia repellat tempore totam, vero! Expedita explicabo illum in mollitia temporibus totam, unde voluptatibus!</p>
+        </div>
+        <ul class="shop">
+            <strong>Our Shop</strong>
+            <li>
+                <a href="">
+                    Men
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    Women
+                </a>
+            </li>
+        </ul>
+        <div class="newsletter">
+            <strong>Subscribe To Our Newsletter</strong>
+
+            <div class="newsletter-input-container">
+                <input type="text" class="newsletter-input"/>
+                <a>Subscribe</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--    js -->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
